@@ -1,0 +1,357 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "[https://www.amazon.com/]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.amazon.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 5753
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[twotabsearchtextbox.loc]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=twotabsearchtextbox, using=id}"
+          ],
+          "result": "id: 0.9149217459504082-1",
+          "subLogs": [],
+          "duration": 101
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: twotabsearchtextbox",
+            "{\"id\":\"0.9149217459504082-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 13549
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "sendKeys",
+      "args": [
+        "[echo, twotabsearchtextbox.loc]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=twotabsearchtextbox, using=id}"
+          ],
+          "result": "id: 0.9149217459504082-1",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: twotabsearchtextbox",
+            "{\"id\":\"0.9149217459504082-1\",\"value\":[\"echo\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 77
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "submit",
+      "args": [
+        "[site.search.loc]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=site-search, using=name}"
+          ],
+          "result": "id: 0.9149217459504082-2",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "submitElement",
+          "args": [
+            "By.name: site-search",
+            "{\"id\":\"0.9149217459504082-2\"}"
+          ],
+          "result": "submitElement:null",
+          "subLogs": [],
+          "duration": 1970
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[Echo.ndGeneration.SmartspeakerwithAlexa.CharcoalFabric.loc]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[text()='Echo (2nd Generation) - Smart speaker with Alexa - Charcoal Fabric'], using=xpath}"
+          ],
+          "result": "id: 0.6861429305163247-1",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[text()='Echo (2nd Generation) - Smart speaker with Alexa - Charcoal Fabric']",
+            "{\"id\":\"0.6861429305163247-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 5175
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[add.to.cart.button.loc]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=add-to-cart-button, using=id}"
+          ],
+          "result": "id: 0.539655222415506-1",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: add-to-cart-button",
+            "{\"id\":\"0.539655222415506-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 202
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[a.button.input.loc]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.//*[@id='a-autoid-30']/span[1]/input[1], using=xpath}"
+          ],
+          "result": "id: 0.539655222415506-2",
+          "subLogs": [],
+          "duration": 6312
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: .//*[@id='a-autoid-30']/span[1]/input[1]",
+            "{\"id\":\"0.539655222415506-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1618
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "assertText",
+      "args": [
+        "[success.message, 1 item added to Cart]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=confirm-text, using=id}"
+          ],
+          "result": "[id: 0.08723829841909225-1]",
+          "subLogs": [],
+          "duration": 127
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=confirm-text, using=id}"
+          ],
+          "result": "id: 0.08723829841909225-1",
+          "subLogs": [],
+          "duration": 74
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: confirm-text",
+            "{\"id\":\"0.08723829841909225-1\"}"
+          ],
+          "result": "getElementText:1 item added to Cart",
+          "subLogs": [],
+          "duration": 44
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=confirm-text, using=id}"
+          ],
+          "result": "id: 0.08723829841909225-1",
+          "subLogs": [],
+          "duration": 11580
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.id: confirm-text",
+            "{\"id\":\"0.08723829841909225-1\"}"
+          ],
+          "result": "getElementText:1 item added to Cart",
+          "subLogs": [],
+          "duration": 21
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "click",
+      "args": [
+        "[hucSprites.checkouthlb.checkout.button.loc]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=.//*[@id='hlb-next-steps']/a[1], using=xpath}"
+          ],
+          "result": "id: 0.08723829841909225-2",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: .//*[@id='hlb-next-steps']/a[1]",
+            "{\"id\":\"0.08723829841909225-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1952
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given get 'https://www.amazon.com/'",
+      "type": "TestStepPass",
+      "duration": 8900,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When click on 'twotabsearchtextbox.loc'",
+      "type": "TestStepPass",
+      "duration": 13679,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys 'echo' into 'twotabsearchtextbox.loc'",
+      "type": "TestStepPass",
+      "duration": 98,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And submit 'site.search.loc'",
+      "type": "TestStepPass",
+      "duration": 2005,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When click on 'Echo.ndGeneration.SmartspeakerwithAlexa.CharcoalFabric.loc'",
+      "type": "TestStepPass",
+      "duration": 5210,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When click on 'add.to.cart.button.loc'",
+      "type": "TestStepPass",
+      "duration": 240,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When click on 'a.button.input.loc'",
+      "type": "TestStepPass",
+      "duration": 7933,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And assert 'success.message' text is \"1 item added to Cart\"",
+      "type": "TestStepPass",
+      "duration": 12231,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected success message text should be 1 item added to Cart : Actual success message text is 1 item added to Cart",
+          "type": "Pass",
+          "screenshot": "test-results/10_Jul_2018_02_27_PM/img/AmazonShoppingDemo_8uf4hd3rco2o33615.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When click on 'hucSprites.checkouthlb.checkout.button.loc'",
+      "type": "TestStepPass",
+      "duration": 1981,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

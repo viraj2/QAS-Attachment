@@ -1,0 +1,19 @@
+{
+  "reports": [
+    {
+      "name": "Amazon_Demo.scenarios.QAFTest.bdd",
+      "dir": "test-results/10_Jul_2018_03_24_PM/json",
+      "startTime": 1531216483714
+    },
+    {
+      "name": "QAS_Demo.scenarios.QAFTest.bdd",
+      "dir": "test-results/10_Jul_2018_02_27_PM/json",
+      "startTime": 1531213057385
+    },
+    {
+      "name": "QAS_Demo.scenarios.QAFTest.bdd",
+      "dir": "test-results/10_Jul_2018_02_25_PM/json",
+      "startTime": 1531212961344
+    }
+  ]
+}

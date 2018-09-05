@@ -1,0 +1,4 @@
+#
+#Tue Jul 10 14:23:20 IST 2018
+add.to.cart.button.loc={"locator"\:"id\=add-to-cart-button","desc"\:"add to cart button loc"}
+a.button.input.loc={"locator"\:"xpath\=.//*[@id\='a-autoid-30']/span[1]/input[1]","desc"\:"a button input loc"}

@@ -1,0 +1,4 @@
+#
+#Tue Jul 10 14:23:20 IST 2018
+hucSprites.checkouthlb.checkout.button.loc={"locator"\:"xpath\=.//*[@id\='hlb-next-steps']/a[1]","desc"\:"hucSprites checkouthlb checkout button loc"}
+success.message={"locator"\:"id\=confirm-text","desc"\:"success message"}

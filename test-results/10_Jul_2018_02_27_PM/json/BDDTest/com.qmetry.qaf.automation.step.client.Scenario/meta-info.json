@@ -1,0 +1,23 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "recorded scenario",
+        "groups": [],
+        "lineNo": 1,
+        "name": "Amazon Shopping Demo",
+        "referece": "scenarios/QAFTest.bdd",
+        "resultFileName": "AmazonShoppingDemo",
+        "sign": "scenarios.QAFTest.bdd.Amazon Shopping Demo()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1531213057449,
+      "duration": 52638,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

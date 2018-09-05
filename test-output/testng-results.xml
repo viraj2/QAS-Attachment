@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get 'https://www.amazon.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'twotabsearchtextbox.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And sendKeys 'echo' into 'twotabsearchtextbox.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And submit 'site.search.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'Echo.ndGeneration.SmartspeakerwithAlexa.CharcoalFabric.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'add.to.cart.button.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'a.button.input.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'success.message' text is "1 item added to Cart"</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected success message text should be 1 item added to Cart : Actual success message text is 1 item added to Cart <a href="test-results/10_Jul_2018_03_24_PM/img/AmazonShoppingDemo_1usi6qillugix30827.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'hucSprites.checkouthlb.checkout.button.loc'</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Amazon_Demo.scenarios.QAFTest.bdd" duration-ms="56511" started-at="2018-07-10T09:54:43Z" finished-at="2018-07-10T09:55:40Z">
+    <groups>
+    </groups>
+    <test name="BDD Test" duration-ms="56511" started-at="2018-07-10T09:54:43Z" finished-at="2018-07-10T09:55:40Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Amazon Shopping Demo" name="setupSuit" is-config="true" duration-ms="22" started-at="2018-07-10T15:24:43Z" finished-at="2018-07-10T15:24:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@635eaaf1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Amazon Shopping Demo" name="setupTest" is-config="true" duration-ms="0" started-at="2018-07-10T15:24:43Z" finished-at="2018-07-10T15:24:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@635eaaf1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Amazon Shopping Demo" name="setup" is-config="true" duration-ms="0" started-at="2018-07-10T15:24:43Z" finished-at="2018-07-10T15:24:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@635eaaf1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Amazon Shopping Demo" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-07-10T15:24:43Z" finished-at="2018-07-10T15:24:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@635eaaf1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Amazon Shopping Demo()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Amazon Shopping Demo" name="Amazon Shopping Demo" duration-ms="56390" started-at="2018-07-10T15:24:43Z" description="recorded scenario" finished-at="2018-07-10T15:25:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get 'https://www.amazon.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'twotabsearchtextbox.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And sendKeys 'echo' into 'twotabsearchtextbox.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And submit 'site.search.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'Echo.ndGeneration.SmartspeakerwithAlexa.CharcoalFabric.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'add.to.cart.button.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'a.button.input.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'success.message' text is "1 item added to Cart"</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected success message text should be 1 item added to Cart : Actual success message text is 1 item added to Cart <a href="test-results/10_Jul_2018_03_24_PM/img/AmazonShoppingDemo_1usi6qillugix30827.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'hucSprites.checkouthlb.checkout.button.loc'</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Amazon Shopping Demo -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Amazon Shopping Demo" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-07-10T15:25:40Z" finished-at="2018-07-10T15:25:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@635eaaf1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Amazon Shopping Demo status=SUCCESS method=scenarios.QAFTest.bdd.Amazon Shopping Demo()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get 'https://www.amazon.com/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'twotabsearchtextbox.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And sendKeys 'echo' into 'twotabsearchtextbox.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And submit 'site.search.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'Echo.ndGeneration.SmartspeakerwithAlexa.CharcoalFabric.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'add.to.cart.button.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'a.button.input.loc'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And assert 'success.message' text is "1 item added to Cart"</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected success message text should be 1 item added to Cart : Actual success message text is 1 item added to Cart <a href="test-results/10_Jul_2018_03_24_PM/img/AmazonShoppingDemo_1usi6qillugix30827.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When click on 'hucSprites.checkouthlb.checkout.button.loc'</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Amazon Shopping Demo" name="afterClass" is-config="true" duration-ms="1" started-at="2018-07-10T15:25:40Z" finished-at="2018-07-10T15:25:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@635eaaf1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Amazon Shopping Demo" name="afterTest" is-config="true" duration-ms="72" started-at="2018-07-10T15:25:40Z" finished-at="2018-07-10T15:25:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@635eaaf1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Amazon Shopping Demo" name="afterSuit" is-config="true" duration-ms="2" started-at="2018-07-10T15:25:40Z" finished-at="2018-07-10T15:25:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@635eaaf1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- Amazon_Demo.scenarios.QAFTest.bdd -->
+</testng-results>
