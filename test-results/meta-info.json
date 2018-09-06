@@ -1,19 +1,59 @@
 {
   "reports": [
     {
-      "name": "Amazon_Demo.scenarios.QAFTest.bdd",
-      "dir": "test-results/10_Jul_2018_03_24_PM/json",
-      "startTime": 1531216483714
+      "name": "QAF Demo",
+      "dir": "test-results/06_Sep_2018_06_17_AM/json",
+      "startTime": 1536214627204
     },
     {
-      "name": "QAS_Demo.scenarios.QAFTest.bdd",
-      "dir": "test-results/10_Jul_2018_02_27_PM/json",
-      "startTime": 1531213057385
+      "name": "QAF Demo",
+      "dir": "test-results/06_Sep_2018_06_12_AM/json",
+      "startTime": 1536214355740
     },
     {
-      "name": "QAS_Demo.scenarios.QAFTest.bdd",
-      "dir": "test-results/10_Jul_2018_02_25_PM/json",
-      "startTime": 1531212961344
+      "name": "QAF Demo",
+      "dir": "test-results/06_Sep_2018_05_57_AM/json",
+      "startTime": 1536213440519
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/06_Sep_2018_05_52_AM/json",
+      "startTime": 1536213130111
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/06_Sep_2018_05_51_AM/json",
+      "startTime": 1536213074081
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/06_Sep_2018_05_45_AM/json",
+      "startTime": 1536212761500
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/06_Sep_2018_05_43_AM/json",
+      "startTime": 1536212615411
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/06_Sep_2018_05_39_AM/json",
+      "startTime": 1536212383917
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/06_Sep_2018_05_34_AM/json",
+      "startTime": 1536212084792
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/06_Sep_2018_05_31_AM/json",
+      "startTime": 1536211914546
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/05_Sep_2018_01_02_PM/json",
+      "startTime": 1536152536378
     }
   ]
 }
