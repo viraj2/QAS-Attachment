@@ -2,6 +2,16 @@
   "reports": [
     {
       "name": "QAF Demo",
+      "dir": "test-results/11_Sep_2018_06_08_AM/json",
+      "startTime": 1536646090909
+    },
+    {
+      "name": "QAF Demo",
+      "dir": "test-results/11_Sep_2018_06_06_AM/json",
+      "startTime": 1536646014751
+    },
+    {
+      "name": "QAF Demo",
       "dir": "test-results/06_Sep_2018_06_17_AM/json",
       "startTime": 1536214627204
     },
