@@ -28,7 +28,7 @@ Please refer https://qmetry.github.io/qaf/
 Thanks,
 QAS Team.
 
-* Hierarchy which will be used to parse test result files on QTM. Supprted formats are :-
+* **automationHierarchy (optional)** - Hierarchy which will be used to parse test result files on QTM for JUnit and TestNG (In case of other frameworks automationHierarchy will be skipped if provided)
   * JUnit 
     * 1 - Use current Hierarchy in which JUnit Testcase is treated as TestStep and Testsuite is treated as Testcase
     * 2 - Use Junit Testcase as Testcase and link all those (from all testsuites and all files of Junit) to one Testsuite
