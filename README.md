@@ -29,10 +29,10 @@ Thanks,
 QAS Team.
 
 * Hierarchy which will be used to parse test result files on QTM. Supprted formats are :-
-* JUnit 
-  * 1 - Use current Hierarchy in which JUnit Testcase is treated as TestStep and Testsuite is treated as Testcase
-  * 2 - Use Junit Testcase as Testcase and link all those (from all testsuites and all files of Junit) to one Testsuite
-  * 3 - Create Multiple Testsuites and then link their respective testcases in corresponding Testsuites
-* TestNG
-  * 1 - Use class as Testcase and test-method as TestStep
-  * 2 - Use test-method as Testcase
+  * JUnit 
+    * 1 - Use current Hierarchy in which JUnit Testcase is treated as TestStep and Testsuite is treated as Testcase
+    * 2 - Use Junit Testcase as Testcase and link all those (from all testsuites and all files of Junit) to one Testsuite
+    * 3 - Create Multiple Testsuites and then link their respective testcases in corresponding Testsuites
+  * TestNG
+    * 1 - Use class as Testcase and test-method as TestStep
+    * 2 - Use test-method as Testcase
